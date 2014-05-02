@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Sites xmlns:ns2="http://example.ipsoft.com/coding.xsd">
+    <Site id="101" name="NY-01" location="New York">
+        <ns2:Hosts>
+            <ns2:Host id="1001">
+                <ns2:Host_Name>srv001001</ns2:Host_Name>
+                <ns2:IP_address>10.1.2.3</ns2:IP_address>
+                <ns2:OS>Windows</ns2:OS>
+                <ns2:Load_avg_1min>1.3</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>2.5</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>1.2</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="34">
+                <ns2:Load_avg_1min>1.3</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>0.0</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>0.0</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="33">
+                <ns2:Load_avg_1min>1.3</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>0.0</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>0.0</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="1002">
+                <ns2:Host_Name>srv001002</ns2:Host_Name>
+                <ns2:IP_address>10.1.2.4</ns2:IP_address>
+                <ns2:OS>Linux</ns2:OS>
+                <ns2:Load_avg_1min>1.4</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>2.5</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>1.2</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="1004">
+                <ns2:Host_Name>srv001004</ns2:Host_Name>
+                <ns2:IP_address>10.1.2.6</ns2:IP_address>
+                <ns2:OS>Linux</ns2:OS>
+                <ns2:Load_avg_1min>2.3</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>4.5</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>4.2</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="1003">
+                <ns2:Host_Name>srv001003</ns2:Host_Name>
+                <ns2:IP_address>10.1.2.5</ns2:IP_address>
+                <ns2:OS>Linux</ns2:OS>
+                <ns2:Load_avg_1min>3.3</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>1.6</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>1.8</ns2:Load_avg_15min>
+            </ns2:Host>
+        </ns2:Hosts>
+    </Site>
+    <Site id="201" name="CA-01" location="California-LA">
+        <ns2:Hosts>
+            <ns2:Host id="2110">
+                <ns2:Host_Name>srv002110</ns2:Host_Name>
+                <ns2:IP_address>172.168.3.43</ns2:IP_address>
+                <ns2:OS>Solaris</ns2:OS>
+                <ns2:Load_avg_1min>1.2</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>1.5</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>1.6</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="45">
+                <ns2:Load_avg_1min>1.2</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>0.0</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>0.0</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="44">
+                <ns2:Load_avg_1min>1.2</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>0.0</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>0.0</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="2102">
+                <ns2:Host_Name>srv002102</ns2:Host_Name>
+                <ns2:IP_address>172.168.3.33</ns2:IP_address>
+                <ns2:OS>Solaris</ns2:OS>
+                <ns2:Load_avg_1min>3.3</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>3.5</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>1.8</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="2101">
+                <ns2:Host_Name>srv002101</ns2:Host_Name>
+                <ns2:IP_address>172.168.3.23</ns2:IP_address>
+                <ns2:OS>Solaris</ns2:OS>
+                <ns2:Load_avg_1min>5.3</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>2.8</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>1.9</ns2:Load_avg_15min>
+            </ns2:Host>
+        </ns2:Hosts>
+    </Site>
+    <Site id="202" name="CA-02" location="California-SF">
+        <ns2:Hosts>
+            <ns2:Host id="2234">
+                <ns2:Host_Name>pc002234</ns2:Host_Name>
+                <ns2:IP_address>172.168.240.32</ns2:IP_address>
+                <ns2:OS>MacOS</ns2:OS>
+                <ns2:Load_avg_1min>1.3</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>2.2</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>1.4</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="2235">
+                <ns2:Host_Name>pc002235</ns2:Host_Name>
+                <ns2:IP_address>172.168.240.34</ns2:IP_address>
+                <ns2:OS>MacOS</ns2:OS>
+                <ns2:Load_avg_1min>1.4</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>3.5</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>1.2</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="2233">
+                <ns2:Host_Name>pc002233</ns2:Host_Name>
+                <ns2:IP_address>172.168.240.31</ns2:IP_address>
+                <ns2:OS>MacOS</ns2:OS>
+                <ns2:Load_avg_1min>1.5</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>3.5</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>1.5</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="56">
+                <ns2:Load_avg_1min>1.5</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>0.0</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>0.0</ns2:Load_avg_15min>
+            </ns2:Host>
+            <ns2:Host id="55">
+                <ns2:Load_avg_1min>1.5</ns2:Load_avg_1min>
+                <ns2:Load_avg_5min>0.0</ns2:Load_avg_5min>
+                <ns2:Load_avg_15min>0.0</ns2:Load_avg_15min>
+            </ns2:Host>
+        </ns2:Hosts>
+    </Site>
+</Sites>
