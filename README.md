@@ -1,4 +1,3 @@
-/*************************************************
 * Project: FileTransfer API
 * 
 * The API provides methods to read one format of 
@@ -10,7 +9,8 @@
 * Start Date: 		04/27/2014
 * Finished Date: 	05/01/2014
 * Time spent: 		3.5 days
-**************************************************/
+
+
 -- Assumptions:
 1. Assume xsd file is provided
 2. Java objects representing XML are derived from xsd schema
@@ -29,9 +29,9 @@
 	2. test/ com.chong.converter contains all three required test cases
 
 
-/*************************************************
+
 * Design trade-offs
-**************************************************/
+* 
 -- Simple file convertors V.S. converting to Java objects
 There are various pure-file convertors that is able to convert 
 one format of file to another without creating Java objects. 
@@ -54,9 +54,9 @@ Flexible to parse string for different csv formats
 
 -- Maven is used to add third party libraries
 
-/*************************************************
+
 * Instructions to compile/run
-**************************************************/
+* 
 Instructions:
 1. Obtain Java object class definition from xsd schema file
 	xjc [-options ...] <schema file/URL/dir/jar>... [-b >bindinfo<] ...
@@ -77,9 +77,9 @@ Instructions:
 	Use XML_objToCSV_objAdapter to convert from XML object to CSV object
 
 
-/*************************************************
+
 * Additional libariries
-**************************************************/
+* 
 1. jaxb-ri-2.2.7
 2. junit 4.11
 3. hamcrest-core 1.3
